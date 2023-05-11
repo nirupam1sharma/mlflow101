@@ -1,0 +1,26 @@
+kind: plotly
+metadata:
+  key: imbalance
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: 433e36b48c29ebc7cd2827c927bb7dd380a26397
+spec:
+  src_path: plots/imbalance.html
+  target_path: describe-analyze/0/imbalance.html
+  viewer: plotly
+  format: html
+  size: 3586556
+  db_key: describe-analyze_imbalance
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:02.334872+00:00'

@@ -1,0 +1,26 @@
+kind: plotly
+metadata:
+  key: violin
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: 4e5b3104054cf588b979f79d25391f073e3e92e0
+spec:
+  src_path: plots/violin.html
+  target_path: describe-analyze/0/violin.html
+  viewer: plotly
+  format: html
+  size: 3643762
+  db_key: describe-analyze_violin
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:02.227537+00:00'

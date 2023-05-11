@@ -1,0 +1,30 @@
+kind: table
+metadata:
+  key: imbalance-weights-vec
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: d14e63d8e5fb5d69a5a48d0e40d6a603fa43f476
+spec:
+  src_path: plots/imbalance-weights-vec.csv
+  target_path: describe-analyze/0/imbalance-weights-vec.csv
+  format: csv
+  size: 49
+  db_key: describe-analyze_imbalance-weights-vec
+  header:
+  - index
+  - Total
+  - Admit
+  - weights
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:02.349727+00:00'

@@ -1,0 +1,35 @@
+kind: table
+metadata:
+  key: correlation-matrix-csv
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: f3d0b0f2b231e98e84fa46543333e08e44a4d72b
+spec:
+  src_path: plots/correlation-matrix.csv
+  target_path: describe-analyze/0/correlation-matrix-csv.csv
+  viewer: table
+  format: csv
+  size: 953
+  db_key: describe-analyze_correlation-matrix-csv
+  header:
+  - index
+  - GRE Score
+  - TOEFL Score
+  - University Rating
+  - SOP
+  - 'LOR '
+  - CGPA
+  - Research
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:02.367218+00:00'

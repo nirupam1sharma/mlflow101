@@ -1,0 +1,26 @@
+kind: plotly
+metadata:
+  key: scatter-2d
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: 09dd4c85da0280cf9074d270c5cb45a586a4749a
+spec:
+  src_path: plots/scatter-2d.html
+  target_path: describe-analyze/0/scatter-2d.html
+  viewer: plotly
+  format: html
+  size: 3616376
+  db_key: describe-analyze_scatter-2d
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:02.033833+00:00'

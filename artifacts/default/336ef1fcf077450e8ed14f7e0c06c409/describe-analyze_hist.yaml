@@ -1,0 +1,24 @@
+kind: artifact
+metadata:
+  key: hist
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: 5b39138f2bba2e30b159fbe4114343a44cb10364
+spec:
+  src_path: plots/hist.html
+  target_path: describe-analyze/0/hist.html
+  size: 70
+  db_key: describe-analyze_hist
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:00.110413+00:00'

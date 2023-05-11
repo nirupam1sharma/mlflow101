@@ -1,0 +1,35 @@
+kind: table
+metadata:
+  key: describe-csv
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: 8cd5f09d69d6fb3f8322165cb7dc178d7dede813
+spec:
+  src_path: plots/describe.csv
+  target_path: describe-analyze/0/describe-csv.csv
+  format: csv
+  size: 562
+  db_key: describe-analyze_describe-csv
+  header:
+  - index
+  - GRE Score
+  - TOEFL Score
+  - University Rating
+  - SOP
+  - 'LOR '
+  - CGPA
+  - Research
+  - Admit
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:00.104342+00:00'

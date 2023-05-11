@@ -1,0 +1,26 @@
+kind: plotly
+metadata:
+  key: histograms
+  project: default
+  iter: 0
+  tree: 336ef1fcf077450e8ed14f7e0c06c409
+  hash: eef114552459388724638afeb35b8779337dc55a
+spec:
+  src_path: plots/histograms.html
+  target_path: describe-analyze/0/histograms.html
+  viewer: plotly
+  format: html
+  size: 3601679
+  db_key: describe-analyze_histograms
+  producer:
+    name: describe-analyze
+    kind: run
+    uri: default/336ef1fcf077450e8ed14f7e0c06c409
+    owner: codespace
+  sources:
+  - name: table
+    path: Admission_Predict.csv
+  license: ''
+status:
+  state: created
+updated: '2023-05-10T18:13:01.946720+00:00'
