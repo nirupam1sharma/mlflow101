@@ -18,8 +18,3 @@ def data_preparation(dataset: pd.DataFrame, test_size=0.3):
     else:
         train, test = dataset, dataset
     return train, test, "Admit"
-df = pd.read_csv("Admission_Predict.csv")
-train,test,label = data_preparation(df)
-print(train.shape)
-print(test.shape)
-print(label)
