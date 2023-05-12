@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 @mlrun.handler(
     outputs=["train_dataset:dataset", "test_dataset:dataset", "label_column"]
 )
-def data_preparation(dataset: pd.DataFrame, test_size=0.3):
+def data_preparation(dataset: pd.DataFrame, test_size=0.3, label_col="Admit"):
     """A function which preparation the NY taxi dataset
 
     :param dataset: input dataset dataframe
@@ -17,4 +17,4 @@ def data_preparation(dataset: pd.DataFrame, test_size=0.3):
         train, test = train_test_split(dataset, test_size=test_size)
     else:
         train, test = dataset, dataset
-    return train, test, "Admit"
+    return train, test, label_col
