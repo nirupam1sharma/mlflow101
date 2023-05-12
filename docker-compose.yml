@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mlflow101:
+    image: mlflow101
+    build:
+      context: .
+      dockerfile: ./Dockerfile
